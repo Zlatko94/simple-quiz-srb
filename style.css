@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.pitanje {
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid orange;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+
+.odgovori {
+    margin-left: 20px;
+}
+
+.odgovori label {
+    display: block;
+    margin: 10px;
+    padding-left: 15px;
+
+}
+
+.odgovori input {
+    float: left;
+    margin-top: 3px;
+}
+
+span {
+    display: block;
+    margin: 10px;
+}
+
+#nova, #posalji {
+    padding: 8px;
+    border: 1px solid orange;
+    border-radius: 5px;
+}
+
+#posalji {
+    margin-left: 20px;
+}
+
+#nova {
+    margin-left: 10px;
+}
